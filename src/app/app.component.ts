@@ -9,7 +9,7 @@ import { SettingsPage } from "../pages/settings/settings";
   templateUrl: 'app.html'
 })
 export class MyApp {
-  @ViewChild('nav') nav: NavController;
+  @ViewChild('content') nav: NavController;
   tabsPage:any = TabsPage;
   settingsPage:any = SettingsPage;
 
